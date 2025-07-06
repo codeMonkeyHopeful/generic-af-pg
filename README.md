@@ -218,5 +218,5 @@ docker network rm pgnet
 
 ## 👤 Author
 
-**Ryan Jasinski**  
+**[@codeMonkeyHopeful](https://github.com/codemonkeyhopeful)**
 MIT License
