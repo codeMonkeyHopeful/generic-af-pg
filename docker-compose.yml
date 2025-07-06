@@ -33,4 +33,4 @@ volumes:
 networks:
   pgnet:
     name: pgnet
-    external: false
+    external: true
