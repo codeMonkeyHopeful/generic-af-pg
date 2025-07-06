@@ -1,0 +1,18 @@
+{
+  "name": "zander-pg",
+  "version": "1.0.0",
+  "description": "Docker Compose for Postgres and pgAdmin",
+  "scripts": {
+    "start": "docker compose up -d",
+    "stop": "docker compose down",
+    "restart": "npm run stop && npm run start",
+    "logs": "docker compose logs -f",
+    "start:dev": "docker compose -f docker-compose.dev.yml up -d",
+    "stop:dev": "docker compose -f docker-compose.dev.yml down",
+    "restart:dev": "npm run stop:dev && npm run start:dev",
+    "logs:dev": "docker compose -f docker-compose.dev.yml logs -f"
+  },
+  "author": "codeMonkeyHopeful",
+  "url": "https://github.com/ryanjasinski",
+  "license": "MIT"
+}
