@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+.env.*
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+docker-compose.dev.yml
+docker-compose.local.yml
+
+# PostgreSQL volumes (if mapped to local dirs)
+postgres_data/
+pgadmin_data/
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# System files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Optional: Editor backups
+*~
+*.swp
+*.swo
+
+# Optional: Coverage or build
+coverage/
+dist/
+build/
+
+# Optional: Local scripts or temporary files
+tmp/
+*.local
